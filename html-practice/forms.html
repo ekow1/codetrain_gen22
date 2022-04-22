@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/fonts/fonts.css">
+    <title>Forms</title>
+    <style>
+         
+        body{
+            /* background: url(./html-prctice/image/sincerely-media-yHWvPxLadRE-unsplash.jpg); */
+            font-family: 'Source Code Pro';
+            color: rgb(2, 72, 115);
+            background-color:#024873;     
+
+        }
+
+        form{
+            width: 40vw;
+            height: 95vh;
+            margin: 0 auto ;
+            font-size: 1.05rem;
+            font-weight: 600;     
+            background: #fff;  
+            margin-top: 25px;
+            padding-top: 10px;
+            border-radius: 15px;
+            box-shadow: 5px   rgba(0, 0, 0,.8);
+
+        }
+        
+        #heading{
+            text-align: center;
+            font-weight: 600;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 1.5rem;
+            text-decoration: underline;
+
+        }
+
+        .field{
+            margin-left: 15%;
+            padding:20px ;    
+        }
+       
+        .input-size{
+            border: none;
+            color: #000;
+            font-size: 0.9rem;
+            background-color: transparent;
+           
+
+        }
+        
+        .select{
+
+           margin-right:10px ;
+           margin-top:15px ;
+           font-weight: 400;
+           accent-color: #A1C7E0; 
+           font-size: 1.5;
+        }
+        
+         span{
+             color: #eb4b6a;
+         }
+
+        #line , .input-size{
+            border-bottom: 0.5px  solid #024873;
+            padding: 10px;
+            width: 70%;
+        }
+
+        ::placeholder{
+            color: #000;
+        
+            
+        }
+        input[type="radio"] 
+        {
+            width: 1.15em;
+            height: 1.15em;
+            border: 2px solid #024873;
+            border-radius: 50%;
+            background-color: #024873;
+        }
+
+        button{
+           margin-left: 56%;
+           margin-top: 10px;
+           padding: 10px;
+           width:110px;
+           background-color: transparent;
+           font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+           font-size: 1.2rem;
+           font-weight: bold;
+           border-radius: 3px;
+           color: #fff;
+           background: #024873;
+           border: none;
+           text-transform: lowercase;
+          
+        }
+
+    </style>
+</head>
+<body>
+    <form >
+        <h2 id="heading"> Resgistration Form
+            <div id="underline"></div>
+        </h2>
+       
+        <div class="field" id="field">
+            <label >First Name</label> <span>*</span><br>
+            <input type="text" name="first-name"class="input-size" placeholder="John " required>
+            <br> 
+            <br> 
+            <label >Last Name</label> <span>*</span><br>
+            <input type="text" name="last-name" class="input-size" placeholder="Doe" required >
+            <br> 
+            <br> 
+            <label >E-mail</label> <span>*</span><br>
+            <input type="email" name="email" class="input-size" placeholder="example@yahoo.com" required>
+            <br> 
+            <br> 
+            <label >Phone Number</label> <span>*</span><br>
+            <input type="tel" name="phone-number" class="input-size" placeholder="+233 566 222 444" required>
+            <br> 
+            <br> 
+            <label >Date Of Birth</label> <span>*</span><br>
+            <input type="date" name="phone-number" class="input-size" placeholder="+233 xxx xxx xxx" required>
+            <br> 
+            <br> 
+
+            <label  class="select-label">Gender</label> <span>*</span><br>
+            <input type="radio" name="gender" value="male"  class="select" required>Male
+            <input type="radio" name="gender" value="female" class="select"required>Female
+            <input type="radio" name="gender" value="others"  class="select"required>Others
+            <br>
+            <br>
+            <label >Address</label> <span>*</span><br>
+            <input type="address" name="address" class="input-size address " placeholder="HNO.17 Nii Ocansey street, Amasaman-Accra" required>
+            <br> 
+            <br> 
+            <label >Country</label> <span>*</span><br>
+            <input type="country" name="country" class="input-size address" placeholder="Ghana" required>
+            <br> 
+            <br> 
+            <label  class="select-label">Class Hours</label> <span>*</span><br>
+            <input type="checkbox" name="gender" value="male"  class="select" required>Monday(Virtual)
+            <input type="checkbox" name="gender" value="female" class="select"required>Tuesday(Campus)
+            <input type="checkbox" name="gender" value="others"  class="select"required>Saturday(Campus)
+            <br>
+            <br>
+
+            <div id="line"></div>
+            
+            <button >Submit</button>
+
+        </div>
+       
+
+    </form>
+</body>
+</html>
