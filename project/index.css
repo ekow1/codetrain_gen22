@@ -1,0 +1,198 @@
+.font{
+    margin-right: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.2rem;
+
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+.anim{
+  animation: transitionIn .7s;
+}
+
+
+
+@keyframes transitionIn{
+
+    from{
+      opacity: 0;
+      transform: rotateX( -10deg);
+    }
+
+   to{
+      opacity: 1;
+      transform: rotateX( 0);
+    }
+
+}
+
+
+
+
+
+
+
+
+.head{
+    color: black;
+    font-size: 2.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+    cursor: pointer
+  }
+  .head span{
+    transition: .5s linear
+  }
+  .head:hover span:nth-child(1){
+    margin-right: 5px
+  }
+  .head:hover {
+
+    font-size: 3rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: gold;
+
+  }
+  .head:hover span:nth-child(2){
+    margin-left: 30px
+  }
+  .head:hover span{
+    color: gold;
+    text-shadow: 0 0 10px gold,
+                 0 0 20px #000, 
+                 0 0 40px #000;
+  }
+
+  .modal-backdrop {
+    background-color: rgba(0,0,0,.0001) !important;
+}
+
+
+.input{
+  border: none;
+  border-bottom: 1px solid white;
+  border-radius: 0;
+  background-color: none;
+  
+}
+
+.input:focus{
+  outline: none;
+  border: none;
+}
+.form-control:focus {
+  outline: none;
+  
+} 
+.form-floating:focus {
+  outline: none;
+  border-bottom: 1px solid white;
+}
+
+
+.form{
+  width: 95%;
+}
+
+
+
+.body{
+  background-image: url('javascript-small-horizontal-4k.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: bottom;
+  height: 100%;
+}
+
+.link{
+  text-decoration: none;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  transition: width 2s, height 4s;
+}
+
+.link:hover{
+  background-color: gold;
+  color: black;
+  width: 350;
+  height: 80px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: width 2s, height 4s;
+
+
+}
+
+.link:nth-child(odd){
+  background-color: #0dcaf0;
+}
+
+.link:nth-child(odd):hover{
+  color: yellow;
+  background-color: black; transform: .5s ease-in;
+
+}
+
+
+.image-box{
+  background-image: url( 'java1.png');
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  animation: fade 10s infinite    ;
+  border-radius: 20px;
+  transform: translateX( -30deg);
+
+}
+
+@keyframes fade {
+  20%{
+    background-image: url( 'nodejs.jpg');
+  }
+
+  40%{
+    background-image: url( 'jsconf-cn.png');
+  }
+
+
+  60%{
+    background-image: url( 'mongodb-banner.jpg');
+  }
+
+  80%{
+    background-image: url( 'spa.jfif');
+  }
+
+  100%{
+    background-image: url( 'brusel.jfif');
+  }
+
+}
+
+
+.link-1 {
+  transition: 0.3s ease;
+  
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+  
+  
+  padding: 20px 10px;
+  
+}
+.link-1:hover {
+  border-top: 4px solid #ffffff;
+  border-bottom: 4px solid #ffffff;
+  padding: 6px 0; 
+}
