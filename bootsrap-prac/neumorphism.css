@@ -1,0 +1,56 @@
+
+.element-2 {
+    background: linear-gradient(-45deg, rgba(255,228,192), rgba(255,228,196,0.55));
+    box-shadow: 10px 10px 14px 0 rgba(0, 0, 0, 0.25),
+    -5px -6px 10px 0 rgba(255, 255, 255, 0.3);
+  }
+  
+  .element-3 {
+    background: linear-gradient(135deg, rgba(255,228,192), rgba(255,228,196,0.55));
+    box-shadow: 10px 10px 14px 0 rgba(0, 0, 0, 0.25),
+    -5px -6px 10px 0 rgba(255, 255, 255, 0.3);
+  }
+
+  .element-4{
+    box-shadow: 12px 12px 24px 0 rgba(0, 0, 0, 0.2),
+      -12px -12px 24px 0 rgba(255, 255, 255, 0.5);
+    
+  }
+  
+  .element-5 {
+    box-shadow: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.2),
+      inset -6px -6px 10px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .element-6{
+    box-shadow: -6px -6px 10px rgba(67, 67, 67, 0.2),
+    inset 4px 4px 10px rgba(160, 160, 160, 0.4),
+    inset -4px -4px 10px rgba(160, 160, 160, 0.4),
+    6px 6px 10px rgba(180, 179, 179, 0.4); 
+   
+
+  }
+
+  .element-7{
+    box-shadow:
+   -7px -7px 20px 0px rgba(56, 55, 55, 0.2),
+   -4px -4px 5px 0px rgba(56, 55, 55, 0.2),
+   7px 7px 20px 0px rgba(161, 160, 160, 0.2),
+   4px 4px 5px 0px rgba(161, 160, 160, 0.067),
+   inset 0px 0px 0px 0px rgba(56, 55, 55, 0.4),
+   inset 0px 0px 0px 0px #0001,
+   inset 0px 0px 0px 0px rgba(56, 55, 55, 0.4),        inset 0px 0px 0px 0px #0001;
+
+  }
+
+  .element-8 {
+    box-shadow: inset 3px 3px 7px rgba(136, 165, 191, 0.48), inset -3px -3px 7px #FFFFFF;
+  }
+
+  .element-9  {
+    box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6),
+      -9px -9px 16px rgba(255, 255, 255, 0.5),
+       inset 3px 3px 7px rgba(136, 165, 191, 0.48), 
+      inset -3px -3px 7px #FFFFFF;
+    background: linear-gradient(318.32deg, rgba(163, 177, 198, 0.1) 0%, rgba(163, 177, 198, 0.1) 55%, rgba(163, 177, 198, 0.25) 100%);
+}

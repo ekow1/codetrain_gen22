@@ -1,0 +1,199 @@
+
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: rgb(253, 185, 49)
+}
+.main{
+    min-height: 100vh;
+    padding: 10px 50px;
+   
+    
+}
+
+.row div{
+    
+    
+    margin: 2px 0;
+    padding: 10px;
+    
+    
+}
+
+h3{
+    font-size: .95rem;
+    text-align: center;
+}
+
+form {
+    background: bisque;
+    height: 150px;
+    padding: 30px 5px;
+    text-align: center;
+    border-radius: 10px;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"]
+{
+    background: bisque;
+    width: 80%;
+    padding: 2px 0;
+    border: none;
+    background: none;
+    border-bottom: 1px solid  black;
+}
+
+.test{
+    background: bisque;
+    height: 270px;
+    border-radius: 10px;
+    padding: 2px 10px 10px;
+}
+.test-1{
+    background: bisque;
+    height: 140px;
+    border-radius: 10px;
+    padding: 30px 20px;
+}
+
+.test-2{
+    background: bisque;
+    height: 175px;
+    border-radius: 10px;
+    padding: 30px 12px;
+    font-size: .8rem;
+    text-align: center;
+    width: 100%;
+    color: grease;
+}
+
+
+
+
+
+
+.submit{
+    
+    margin-left: 90px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    background: rgba(0, 0, 0);
+    color: white;
+    font-size: 1.02rem;
+    font-weight: 600;
+    
+}
+
+.checkbox{
+    width: 20px;
+    border: 5px solid black;
+    font-size: 1.5rem;
+    
+}
+
+::placeholder{
+color: grease;
+font-size: 1.2rem;
+
+}
+ .test img{
+    width: 300px;
+    height: 190px;
+    border-radius: 10px;
+}
+
+.test div {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2px;
+}
+
+.text{
+    font-size: 1.2rem;
+    text-align: justify;
+    font-weight: 600;
+    padding: 0 1px;
+    
+}
+
+.test p{
+    font-size: .95rem;
+    text-align: center;
+    
+
+}
+
+span{
+    font-size: .7rem;
+    font-style: oblique;
+}
+
+.bold{
+    font-style: normal;
+    font-weight: 600;
+    font-size: .8rem;
+}
+
+
+
+#email{
+    width: 60%;
+    margin-right: 50px;
+
+}
+
+.button{
+    padding: 8px 20px;
+    border: none;
+    align-self: baseline;
+    border-radius: 8px;
+    background: black;
+    color: white;
+    font-size: 1rem;
+    
+}
+h4{
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+    font-weight: 600;
+    text-align: justify;
+    padding: 0 42px;
+}
+
+.audio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+}
+.audio audio{
+    
+    border-radius: 5px;
+    width: 90%;
+}
+
+.audio h6{
+    text-align: center;
+    font-size: .9rem;
+    color: grease;
+   
+}
+
+
+
+ .t-head{
+    color: white;
+
+}
+
+.orange{
+    background-color:rgb(238, 118, 6);
+    
+  
+}
+
+
