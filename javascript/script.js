@@ -13,7 +13,7 @@ chair = length * height;
 
 
 
-console.log(ekow())
+
 console.log( height);
 console.log( length);
 console.log( width );
