@@ -12,6 +12,20 @@ table = width + height ;
 chair = length * height;
 
 
+var age = 22; 
+
+{
+    var age =23;
+    console.log(age)
+
+    {
+        var age= 25;
+        console.log(age)
+    }
+     
+}
+
+console.log(age)
 
 
 console.log( height);
