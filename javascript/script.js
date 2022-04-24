@@ -11,10 +11,13 @@ table = width + height ;
 
 chair = length * height;
 
-console.log( height)
-console.log( length)
-console.log( width )
-console.log( table )
-console.log( chair )
+
+
+console.log(ekow())
+console.log( height);
+console.log( length);
+console.log( width );
+console.log( table );
+console.log( chair );
 
 
