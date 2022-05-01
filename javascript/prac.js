@@ -49,6 +49,9 @@ decrement.addEventListener('click', counterdecrement)
 
 
 
-date.innerHTML= d.toLocaleDateString();
+
+setInterval( () => {
+   date.innerHTML = new Date().toLocaleString()
+}, 1000)
 
 
