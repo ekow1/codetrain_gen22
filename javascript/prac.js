@@ -10,6 +10,8 @@ let counter = 0;
 let d =new Date();
 
 function counterIncrement (){
+
+    
     counter++
 
     count.innerHTML= counter;
