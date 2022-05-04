@@ -34,4 +34,3 @@ console.log( width );
 console.log( table );
 console.log( chair );
 
-
