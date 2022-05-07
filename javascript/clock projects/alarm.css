@@ -1,0 +1,68 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    background-image: radial-gradient(circle, rgba(0,117,57,1) 0%, rgba(0,32,15,1) 100%);
+}
+
+
+.container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 15vw;
+    background-image:radial-gradient(circle, rgba(255,184,14,1) 0%, rgba(243,111,2,1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    
+}
+
+.controls {
+     margin-top: 16px;
+}
+
+
+.btn{
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: .8rem;
+    font-weight: 600;
+    border-radius: 5px ;
+    border: 2px ;
+    color: white;
+    padding: 8px;
+    margin-left: 4px;
+    cursor: pointer;
+    background-color: #FFFFFF ;
+
+}
+
+input {
+    background:#F2BB16 ;
+    border: 1.5px solid wheat;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.set-alarm{
+    background:#FFB30D ;
+    color: black;
+}
+
+.clear-alarm{
+    background:#C43302 ;
+    color: white;
+}
+
+.cancel-alarm{
+    background:black ;
+    color: #FFB30D;
+}
