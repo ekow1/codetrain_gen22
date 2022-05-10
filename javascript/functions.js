@@ -48,3 +48,15 @@ function mul(m , k) {
 }
 
 mul(20, 10);
+
+
+
+let ope =((value1,value2) => value2 * value2
+
+
+) (10 ,10)
+
+console.log(ope)
+
+
+

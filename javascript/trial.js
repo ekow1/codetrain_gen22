@@ -46,7 +46,7 @@ console.log(championsLeague)
  
 
  
- ( 'Ekow ' , 'Awradwoa')) ;
+ ( 'Ekow ' , 'Awuradwoa')) ;
 
 
  

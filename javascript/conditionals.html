@@ -7,6 +7,9 @@
     <title>Conditionals</title>
 </head>
 <body>
+
+
+    
     
 
 
@@ -44,10 +47,32 @@
         console.log(add(100,150))
         document.write(add(100,150))
 
+       let userNums= []
+        const user = (nums) => {
+            
+              for ( i = 1; i <= nums; i++) {
+                userNums.push(i);
+                  
+              }
+              return userNums;
+        }
+
+        console.log(user(500))
+
+        function userNames(fullName , age , height) {
+            this.fullName=fullName;
+            this.age=age;
+            this.height = height;
+
+            
+        }
+
+        const users = new userNames('ekow',25,5.7)
+
+        console.log(users)
 
 
-             
-
+         
 
 
     </script>
