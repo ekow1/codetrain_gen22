@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objects</title>
+</head>
+<body>
+    
+
+
+
+    <script>
+
+        let codetrainStudent ={
+            firstName: 'Enoch' ,
+            lastName : 'Enu',
+            age : 27,
+            height : 5.7
+        }
+
+
+        codetrainStudent.middleName = 'Ekow';
+
+        console.log(codetrainStudent.firstName , codetrainStudent.lastName, codetrainStudent.middleName)
+     let students = Object.values(codetrainStudent)
+     
+
+     for (const student of students ) {
+         console.log(student)
+
+         document.write(`${student} <br>`)
+      
+     }
+
+     class Code{
+         constructor(fname,lname,age,occupation, beauty){
+              this.fname = fname;
+              this.lname = lname;
+              this.age = age;
+              this.occupation = occupation;
+              this.beauty = beauty
+
+         }
+     }
+
+      const  teacher = new Code( 'Comfort', 'Yeboah' , 25 , 'Software devloper', ' very beautiful');
+
+      console.log(teacher)
+        
+
+
+
+
+
+
+    </script>
+</body>
+</html>

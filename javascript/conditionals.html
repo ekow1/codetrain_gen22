@@ -15,6 +15,20 @@
 
     <script >
 
+        // loop out one by one
+
+        function looper(value) {
+            setTimeout(() => console.log(value), value * 1000)
+
+          
+        }
+
+        for (let i = 0; i < 20; i++) {
+             looper(i)
+                
+            }
+            
+        
         const colleagues =['Confidence','Aboagye','Zidane','Cornelius']
 
         for (let i = 0; i < colleagues.length; i++) {
@@ -70,7 +84,58 @@
         const users = new userNames('ekow',25,5.7)
 
         console.log(users)
+      
 
+
+          // using foreach to loop through array instead of the normal for loop
+
+        const hope = [ 'fanny' , 'Richmond' , 'Jemima' , 'Mona', 'Jennifer']
+
+         hope.forEach(names => {
+            
+               console.log(names)
+         });
+
+// using for in for array looping
+         for (const empo in hope) {
+
+            if (hope[empo] === 'Mona') {
+                break
+            }
+
+             console.log(hope[empo])
+         }
+
+    
+         const moja ={
+
+            CEO  : 'Kris',
+            Manager : 'Fanny',
+            IT : ['Richmond', 'Enoch'],
+            Admin : 'Jemima',
+            Finance : 'Mona'
+
+         }
+         
+
+        
+    // using for in for objecting looping
+
+         for (const staff in moja) {
+           console.log(staff)
+         }  
+
+
+         const web = "enoch ekow enu"
+
+         for (const charac of web) {
+
+            console.log(charac)
+             
+         }
+
+       
+         
 
          
 
